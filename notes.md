@@ -5,4 +5,4 @@ HTML markup
 
 Accessibility
 - Screenreader-only texts for buttons and other UI controls
-- Access ibility tool bar
+- Accessibility tool bar

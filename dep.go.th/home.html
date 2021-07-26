@@ -7,6 +7,61 @@
     <title>Home</title>
 </head>
 <body>
-    
+    <main> 
+         <section>
+            <h4>สำหรับผู้ที่ต้องความช่วยเหลือ หรือได้รับผลกระทบจากโควิด-19</h4>
+            <a href="home.html">ลงชื่อรับวัคซีน</a>
+            <a href="home.html">ลงชื่อเข้ารับตรวจเชื้อ</a>
+            <a href="home.html">ขอรับเงินเยียวยา</a>
+            <a href="home.html">เช็คอาการเบื้องต้น</a>
+        </section>
+        <section>
+            <div class="tab">
+                <button class="tablinks" onclick="openTabcontent (event, 'home')">หน้าหลัก</button>
+                <button class="tablinks" onclick="openTabcontent (event, 'services-and-help')">ช่วยเหลือและบริการ</button>
+                <button class="tablinks" onclick="openTabcontent (event, 'manuals')">คู่มือ</button>
+                <button class="tablinks" onclick="openTabcontent (event, 'law-and-academic'">กฎหมาย/วิชาการ</button>
+                <button class="tablinks" onclick="openTabcontent (event, 'contact-us'">ติดต่อเรา</button>
+                <button class="tablinks" onclick="openTabcontent (event, 'news-and-updates'">ข่าวสาร</button>
+                <button class="tablinks" onclick="openTabcontent (event, 'frequently-asked-questions'">คำถามที่พบบ่อย</button>
+            </div>
+
+            <div id="home" class="tabcontent">
+                <h1>Home</h1>
+            </div>
+            <div id="services-and-help" class="tabcontent">
+                <h1>Services and Help</h1>
+            </div>
+            <script>
+                function openTabcontent(evt, tabContent) {
+                  var i, tabcontent, tablinks;
+                  tabcontent = document.getElementsByClassName("tabcontent");
+                  for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                  }
+                  tablinks = document.getElementsByClassName("tablinks");
+                  for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                  }
+                  document.getElementById(tabContent).style.display = "block";
+                  evt.currentTarget.className += " active";
+                }
+                </script>
+            </section>
+    </main>
+    <section>
+        <!-- Site map -->
+    </section>
+    <footer>
+        <!-- Footer content -->
+        <h3>กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ</h3>
+        <p>กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ <br>
+            เลขที่ 255 อาคาร 60 ปี กรมประชาสงเคราะห์ <br>
+            ถนนราชวิถี แขวงทุ่งพญาไท เขตราชเทวี <br>
+            กรุงเทพฯ 10400</p>
+        <p>โทรศัพท์ : 0 2354 3388</p>
+        <p>โทรสาร : 0 2354 5020</p>
+        <p>อีเมล : webmaster@dep.go.th</p>
+    </footer>
 </body>
 </html>
