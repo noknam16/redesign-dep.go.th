@@ -21,19 +21,37 @@ button {
         font-size: 16px;
 }
 
+/* body */
+
 section.header {
     display: block;
     background-color: #e7e7e7;
 }
 
-div#home section {
-    background-color: lightblue;
+div.grid-container {
+  display: flex;
+  margin: 20px auto;
+    max-width: 100%;
+    flex-direction: row;
 }
 
-section.importantButtons {
-    float: left;
-    width: 200px;
-  height: 300px;
+@media (max-width: 800px) {
+  div.grid-container {
+    flex-direction: column;
+  }
+}
+
+grid-container > section {
+    flex: 1 1 auto;
+    padding: 12px;
+    width: 100%;
+    flex-direction: column;
+}
+
+section.important-buttons {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
   background-color: #F09A9D;
   padding-left: 20px;
   padding-right: 20px;
@@ -42,15 +60,21 @@ section.importantButtons {
 }
 
 section.news {
-    display: inline-block;
-    width: 200px;
-  height: 300px;
     padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: khaki;
+  flex: 50%;
 }
 
+
+
+
+/* end of body */
+
+
+/* footer */
 footer {
     background-color: lightgray;
 }
