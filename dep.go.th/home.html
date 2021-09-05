@@ -4,13 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="vsiewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel=stylesheet" href="https://fonts.googleapis.com/css?family=Sarabun">
+    <style>
+        body {
+          font-family: "Sarabun";font-size: auto;
+        }
+        </style>
 </head>
 
 <body>
     <main>
-        <section>
+        <section class="header">
             <h4>สำหรับผู้ที่ต้องความช่วยเหลือ หรือได้รับผลกระทบจากโควิด-19</h4>
             <a href="home.html">ลงชื่อรับวัคซีน</a>
             <a href="home.html">ลงชื่อเข้ารับตรวจเชื้อ</a>
@@ -31,8 +38,8 @@
                     onclick="openTabcontent (event, 'frequently-asked-questions'">คำถามที่พบบ่อย</button>
             </div>
 
-            <div id="home" class="tabcontent">
-                <section>
+            <div id="home">
+                <section class="importantButtons">
                     <button type="button">ลงทะเบียนบัตรประจำตัวคนพิการ</button>
                     <button type="button">ขอล่ามภาษามือ</button>
                     <button type="button">ขอผู้ช่วยคนพิการ</button>
@@ -40,7 +47,7 @@
                     <button type="button">ต้องการเงินช่วยเหลือ</button>
                 </section>
 
-                <section>
+                <section class="news">
                     <h3>ข่าวสารประจำวัน</h3>
                     <div class="support-grid"></div>
 
@@ -119,11 +126,8 @@
         </script>
         </section>
     </main>
-    <section>
-        <!-- Site map -->
-    </section>
+
     <footer>
-        
         <section>
             <h4>ช่วยเหลือและบริการ</h4>
             <button type="button">ลงทะเบียนบัตรประจำตัวคนพิการ</button>
@@ -177,6 +181,7 @@
         </section>
 
         <section>
+            <hr>
         <h3>กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ</h3>
         <p>กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ <br>
             เลขที่ 255 อาคาร 60 ปี กรมประชาสงเคราะห์ <br>
@@ -186,8 +191,8 @@
         <p>โทรสาร : 0 2354 5020</p>
         <p>อีเมล : webmaster@dep.go.th</p>
         </section>
-        
     </footer>
+
 </body>
 
 </html>
