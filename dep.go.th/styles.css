@@ -1,17 +1,14 @@
-body {
+/* body {
     background-color: white;
-  }
+  } */
 
-p {
-    color: black;
-  }
 div.tab {
     overflow: hidden;
   background-color: #A5086B;
 }
 
 button {
-        background-color: #4CAF50; /* Green */
+        background-color: #A5086B; /* Green */
         border: none;
         color: white;
         padding: 15px 32px;
@@ -19,13 +16,22 @@ button {
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+        font-family: inherit;
+}
+
+button:hover {
+  color: #F4F1DE;
+}
+
+h4#covid-banner {
+  color: white;
 }
 
 /* body */
 
 section.header {
     display: block;
-    background-color: #e7e7e7;
+    background-color: #0A090C;
 }
 
 div.grid-container {
@@ -41,12 +47,12 @@ div.grid-container {
   }
 }
 
-grid-container > section {
+/* grid-container > section {
     flex: 1 1 auto;
     padding: 12px;
     width: 100%;
     flex-direction: column;
-}
+} */
 
 section.important-buttons {
   display: flex;
@@ -59,15 +65,23 @@ section.important-buttons {
   padding-bottom: 20px;
 }
 
+button.important-buttons {
+  flex-grow: inherit;
+  margin: 12px;
+}
+
 section.news {
     padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: khaki;
+  background-color: #F4F1DE;
   flex: 50%;
 }
 
+img {
+  width: 300px;
+}
 
 
 
@@ -76,5 +90,55 @@ section.news {
 
 /* footer */
 footer {
-    background-color: lightgray;
+    background-color: #4E6E5D;
+    display: block;
 }
+
+div.menu-footer {
+  display: flex;
+}
+
+section.menu-flex {
+  display: flex;
+  flex-direction: column;
+  flex: 40%;
+  margin: 12px;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-bottom: 6px;
+  display: block;
+}
+
+a:link {
+  color: #F4F1DE;
+}
+
+a:hover {
+  overflow: hidden;
+  border: 3px solid #E07A5F;
+  /* background-color: #0A090C; */
+  margin: -3px;
+}
+
+li {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+ul {
+  text-align: left;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+
+
+/* button.menu-footer-button {
+  margin: 8px; */

@@ -19,7 +19,7 @@
 <body>
     <main>
         <section class="header">
-            <h4>สำหรับผู้ที่ต้องความช่วยเหลือ หรือได้รับผลกระทบจากโควิด-19</h4>
+            <h4 id="covid-banner">สำหรับผู้ที่ต้องความช่วยเหลือ หรือได้รับผลกระทบจากโควิด-19</h4>
             <a href="home.html">ลงชื่อรับวัคซีน</a>
             <a href="home.html">ลงชื่อเข้ารับตรวจเชื้อ</a>
             <a href="home.html">ขอรับเงินเยียวยา</a>
@@ -42,11 +42,11 @@
             <div class="grid-container">
     
                 <section class="important-buttons">
-                    <button type="button">ลงทะเบียนบัตรประจำตัวคนพิการ</button>
-                    <button type="button">ขอล่ามภาษามือ</button>
-                    <button type="button">ขอผู้ช่วยคนพิการ</button>
-                    <button type="button">ต้องการเข้าสถานคุ้มครอง</button>
-                    <button type="button">ต้องการเงินช่วยเหลือ</button>
+                    <button type="button" class="important-buttons">ลงทะเบียนบัตรประจำตัวคนพิการ</button>
+                    <button type="button" class="important-buttons">ขอล่ามภาษามือ</button>
+                    <button type="button" class="important-buttons">ขอผู้ช่วยคนพิการ</button>
+                    <button type="button" class="important-buttons">ต้องการเข้าสถานคุ้มครอง</button>
+                    <button type="button" class="important-buttons">ต้องการเงินช่วยเหลือ</button>
                 </section>
 
                 <section class="news">
@@ -56,9 +56,8 @@
                     <div class="band">
                         <div class="item-1">
                             <a href="home.html" class="card">
-                                <!-- <div class="thumb"
-                                    style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg);">
-                                </div> -->
+                                <img src="https://www.dep.go.th/media/showtime/storage/2021/06/25/542/main/6.jpg?1624600730" alt="พก. ร่วมประชุมวิชาการออนไลน์นานาชาติราชสุดา ครั้งที่ 7
+                                เตรียมพร้อมจัดการศึกษาแบบเรียนรวมครอบคลุมทุกระดับ">
                                 <article>
                                     <h4>พก. ร่วมประชุมวิชาการออนไลน์นานาชาติราชสุดา ครั้งที่ 7
                                         เตรียมพร้อมจัดการศึกษาแบบเรียนรวมครอบคลุมทุกระดับ</h4>
@@ -67,9 +66,7 @@
                         </div>
                         <div class="item-2">
                             <a href="home.html" class="card">
-                                <!-- <div class="thumb"
-                                    style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg);">
-                                </div> -->
+                                <img src="https://dep.go.th/media/showtime/storage/2021/06/25/541/main/5.jpg?1624600635" alt="พก.ร่วมพิธีเปิดโครงการพัฒนาหลักสูตร Butler เพื่อการประกอบอาชีพ">
                                 <article>
                                     <h4>พก.ร่วมพิธีเปิดโครงการพัฒนาหลักสูตร Butler เพื่อการประกอบอาชีพ</h4>
                                 </article>
@@ -77,9 +74,7 @@
                         </div>
                         <div class="item-3">
                             <a href="home.html" class="card">
-                                <!-- <div class="thumb"
-                                    style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg);">
-                                </div> -->
+                                <img src="https://dep.go.th/media/showtime/storage/2021/06/24/537/main/4.jpg?1624524014" alt="อธิบดี พก. ลงพื้นที่ ศพอ.พระประแดง จ.สมุทรปราการ">
                                 <article>
                                     <h4>อธิบดี พก. ลงพื้นที่ ศพอ.พระประแดง จ.สมุทรปราการ</h4>
                                 </article>
@@ -131,58 +126,129 @@
     </main>
 
     <footer>
-        <section>
+        <div class="menu-footer">
+        <section class="menu-flex">
             <h4>ช่วยเหลือและบริการ</h4>
-            <button type="button">ลงทะเบียนบัตรประจำตัวคนพิการ</button>
-            <button type="button">ขอล่ามภาษามือ</button>
-            <button type="button">ขอผู้ช่วยคนพิการ</button>
-            <button type="button">ต้องการเข้าสถานคุ้มครอง</button>
-            <button type="button">ต้องการเงินช่วยเหลือ</button>
-            <button type="button">ตรวจสอบสิทธิสวัสดิการสังคม</button>
-            <button type="button">ตรวจสอบสิทธิรักษาพยาบาล สปสช.</button>
-            <button type="button">ลดหย่อนภาษีคนพิการ</button>
+            <ul>
+            <li>
+                <a href="/home">ลงทะเบียนบัตรประจำตัวคนพิการ</a>
+            </li>
+            <li>
+                <a href="/home">ขอล่ามภาษามือ</a>
+            </li>
+            <li>
+                <a href="/home">ขอผู้ช่วยคนพิการ</a>
+            </li>
+            <li>
+                <a href="/home">ต้องการเข้าสถานคุ้มครอง</a>
+            </li>
+            <li>
+                <a href="/home">ต้องการเงินช่วยเหลือ</a>
+            </li>
+            <li>
+                <a href="/home">ตรวจสอบสิทธิสวัสดิการสังคม</a>
+            </li>
+            <li>
+                <a href="/home">ตรวจสอบสิทธิรักษาพยาบาล สปสช.</a>
+            </li>
+            <li>
+                <a href="/home">ลดหย่อนภาษีคนพิการ</a>
+            </li>
+            </ul>
         </section>
 
-        <section>
+        <section class="menu-flex">
             <h4>คู่มือการปฏิบัติตัว</h4>
-            <button type="button">คู่มือออกแบบสภาพแวดล้อมสำหรับคนพิการ และคนทุกวัย</button>
-            <button type="button">คู่มือรายการอุปกรณ์ สิ่งอำนวยความสะดวก หรือบริการที่สอดคล้องกับความต้องการพิเศษของคนพิการ</button>
-            <button type="button">ตัวอย่างที่ดีในการจัดสิ่งอำนวยความสะดวกขั้นพื้นฐาน “สำหรับคนพิการและคนทุกวัย”</button>
+            <ul>
+            <li>
+                <a href="/home">คู่มือออกแบบสภาพแวดล้อมสำหรับคนพิการ และคนทุกวัย</a>
+            </li>
+            <li>
+                <a href="/home">คู่มือรายการอุปกรณ์ สิ่งอำนวยความสะดวก หรือบริการที่สอดคล้องกับความต้องการพิเศษของคนพิการ</a>
+            </li>
+            <li>
+                <a href="/home">ตัวอย่างที่ดีในการจัดสิ่งอำนวยความสะดวกขั้นพื้นฐาน “สำหรับคนพิการและคนทุกวัย”</a>
+            </li>
+            </ul>
         </section>
 
-        <section>
+        <section class="menu-flex">
             <h4>กฎหมาย/วิชาการ</h4>
-            <button type="button">รัฐธรรมนูญ</button>
-            <button type="button">กฎหมาย</button>
-            <button type="button">ระเบียบ/ข้อบังคับ</button>
-            <button type="button">รายงานประจำปี</button>
-            <button type="button">บทความ/งานวิจัย</button>
-            <button type="button">เอกสารสำหรับดาวน์โหลด</button>
+            <ul>
+                <li>
+                    <a href="/home">รัฐธรรมนูญ</a>
+                </li>
+                <li>
+                    <a href="/home">กฎหมาย</a>
+                </li>
+                <li>
+                    <a href="/home">ระเบียบ/ข้อบังคับ</a>
+                </li>
+                <li>
+                    <a href="/home">รายงานประจำปี</a>
+                </li>
+                <li>
+                    <a href="/home">บทความ/งานวิจัย</a>
+                </li>
+                <li>
+                    <a href="/home">เอกสารสำหรับดาวน์โหลด</a>
+                </li>
+        </ul>
         </section>
 
-        <section>
+        <section class="menu-flex">
             <h4>ติดต่อเรา</h4>
-            <button type="button">ส่วนกลาง</button>
-            <button type="button">สถานคุ้มครองและพัฒนาคนพิการ</button>
-            <button type="button">ศูนย์พัฒนาศักยภาพและอาชีพ</button>
-            <button type="button">ต้งการเข้าสถานคุ้มครอง</button>
-            <button type="button">ศูนย์พัฒนาศักยภาพบุคคลออทิสติก</button>
+            <ul>
+                <li>
+                    <a href="/home">ส่วนกลาง</a>
+                </li>
+                <li>
+                    <a href="/home">สถานคุ้มครองและพัฒนาคนพิการ</a>
+                </li>
+                <li>
+                    <a href="/home">ศูนย์พัฒนาศักยภาพและอาชีพ</a>
+                </li>
+                <li>
+                    <a href="/home">ต้งการเข้าสถานคุ้มครอง</a>
+                </li>
+                <li>
+                    <a href="/home">ศูนย์พัฒนาศักยภาพบุคคลออทิสติก</a>
+                </li>
+        </ul>
         </section>
 
-        <section>
+        <section class="menu-flex">
             <h4>ข่าวสาร</h4>
-            <button type="button">ข่าวสารประจำวัน</button>
-            <button type="button">ร่วมงานกับ พก.</button>
-            <button type="button">ประกาศจัดซื้อจัดจ้าง</button>
-            <button type="button">หลักสูตรออนไลน์ พก.</button>
+            <ul>
+                <li>
+                    <a href="/home">ข่าวสารประจำวัน</a>
+                </li>
+                <li>
+                    <a href="/home">ร่วมงานกับ พก.</a>
+                </li>
+                <li>
+                    <a href="/home">ประกาศจัดซื้อจัดจ้าง</a>
+                </li>
+                <li>
+                    <a href="/home">หลักสูตรออนไลน์ พก.</a>
+                </li>
+        </ul>
         </section>
 
-        <section>
+        <section class="menu-flex">
             <h4>คำถามที่พบบ่อย</h4>
-            <button type="button">คำถามที่พบบ่อย</button>
-            <button type="button">กระทู้ถาม-ตอบ</button>
+            <ul>
+                <li>
+                    <a href="/home">คำถามที่พบบ่อย</a>
+                </li>
+                <li>
+                    <a href="/home">กระทู้ถาม-ตอบ</a>
+                </li>
+        </ul>
         </section>
+    </div>
 
+    <div class="bottom-footer">
         <section>
             <hr>
         <h3>กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ</h3>
@@ -194,6 +260,7 @@
         <p>โทรสาร : 0 2354 5020</p>
         <p>อีเมล : webmaster@dep.go.th</p>
         </section>
+    </div>
     </footer>
 
 </body>
