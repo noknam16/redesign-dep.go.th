@@ -8,12 +8,16 @@
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel=stylesheet" href="https://fonts.googleapis.com/css?family=Sarabun">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="webfonts/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sarabun">
     <style>
         body {
-          font-family: "Sarabun";font-size: auto;
+            font-family: "Sarabun";
+            font-size: auto;
         }
-        </style>
+    </style>
 </head>
 
 <body>
@@ -38,15 +42,16 @@
                 <button class="tablinks"
                     onclick="openTabcontent (event, 'frequently-asked-questions'">คำถามที่พบบ่อย</button>
             </div>
-            
+
             <div class="grid-container">
-    
+
                 <section class="important-buttons">
-                    <button type="button" class="important-buttons">ลงทะเบียนบัตรประจำตัวคนพิการ</button>
-                    <button type="button" class="important-buttons">ขอล่ามภาษามือ</button>
-                    <button type="button" class="important-buttons">ขอผู้ช่วยคนพิการ</button>
-                    <button type="button" class="important-buttons">ต้องการเข้าสถานคุ้มครอง</button>
-                    <button type="button" class="important-buttons">ต้องการเงินช่วยเหลือ</button>
+                    <h3>เมนูสำคัญ</h3>
+                    <button type="button" class="important-buttons"><i class="fas fa-id-card"></i>ลงทะเบียนบัตรประจำตัวคนพิการ</button>
+                    <button type="button" class="important-buttons"><i class="fas fa-sign-language"></i>ขอล่ามภาษามือ</button>
+                    <button type="button" class="important-buttons"><i class="fas fa-user-nurse"></i>ขอผู้ช่วยคนพิการ</button>
+                    <button type="button" class="important-buttons"><i class="fas fa-house-user"></i>ต้องการเข้าสถานคุ้มครอง</button>
+                    <button type="button" class="important-buttons"><i class="fas fa-hand-holding-usd"></i>ต้องการเงินช่วยเหลือ</button>
                 </section>
 
                 <section class="news">
@@ -56,8 +61,6 @@
                     <div class="band">
                         <div class="item-1">
                             <a href="home.html" class="card">
-                                <img src="https://www.dep.go.th/media/showtime/storage/2021/06/25/542/main/6.jpg?1624600730" alt="พก. ร่วมประชุมวิชาการออนไลน์นานาชาติราชสุดา ครั้งที่ 7
-                                เตรียมพร้อมจัดการศึกษาแบบเรียนรวมครอบคลุมทุกระดับ">
                                 <article>
                                     <h4>พก. ร่วมประชุมวิชาการออนไลน์นานาชาติราชสุดา ครั้งที่ 7
                                         เตรียมพร้อมจัดการศึกษาแบบเรียนรวมครอบคลุมทุกระดับ</h4>
@@ -66,7 +69,6 @@
                         </div>
                         <div class="item-2">
                             <a href="home.html" class="card">
-                                <img src="https://dep.go.th/media/showtime/storage/2021/06/25/541/main/5.jpg?1624600635" alt="พก.ร่วมพิธีเปิดโครงการพัฒนาหลักสูตร Butler เพื่อการประกอบอาชีพ">
                                 <article>
                                     <h4>พก.ร่วมพิธีเปิดโครงการพัฒนาหลักสูตร Butler เพื่อการประกอบอาชีพ</h4>
                                 </article>
@@ -74,7 +76,6 @@
                         </div>
                         <div class="item-3">
                             <a href="home.html" class="card">
-                                <img src="https://dep.go.th/media/showtime/storage/2021/06/24/537/main/4.jpg?1624524014" alt="อธิบดี พก. ลงพื้นที่ ศพอ.พระประแดง จ.สมุทรปราการ">
                                 <article>
                                     <h4>อธิบดี พก. ลงพื้นที่ ศพอ.พระประแดง จ.สมุทรปราการ</h4>
                                 </article>
@@ -85,182 +86,186 @@
                 </section>
             </div>
 
-                <section>
-                    <h3>ตรวจสอบสถานะการรับเงิน และสถานะสิทธิต่าง ๆ</h3>
-                    <button type="button">ตรวจสอบสถานะการขอรับเงินอุดหนุน/เงินสงเคราะห์</button>
-                    <button type="button">ตรวจสอบสถานะการรับเงินอุดหนุน กรมพัฒฯ</button>
-                    <button type="button">ตรวจสอบสถานะสิทธิโครงการเงินอุดหนุนเพื่อการเลี้ยงดูเด็กแรกเกิด</button>
-                    <button type="button">ตรวจสอบสถานะการขอรับการช่วยเหลือศูนย์ช่วยเหลือสังคม สายด่วน 1300</button>
-                </section>
+            <section>
+                <h3>ตรวจสอบสถานะการรับเงิน และสถานะสิทธิต่าง ๆ</h3>
+                <button type="button">ตรวจสอบสถานะการขอรับเงินอุดหนุน/เงินสงเคราะห์</button>
+                <button type="button">ตรวจสอบสถานะการรับเงินอุดหนุน กรมพัฒฯ</button>
+                <button type="button">ตรวจสอบสถานะสิทธิโครงการเงินอุดหนุนเพื่อการเลี้ยงดูเด็กแรกเกิด</button>
+                <button type="button">ตรวจสอบสถานะการขอรับการช่วยเหลือศูนย์ช่วยเหลือสังคม สายด่วน 1300</button>
+            </section>
 
-                <section>
-                    <h4>ดูแลคนพิการ ทำอย่างไร?</h4>
-                    <button type="button">สถานที่ และเครื่องมือที่เหมาะสมสำหรับคนพิการ</button>
-                </section>
+            <section>
+                <h4>ดูแลคนพิการ ทำอย่างไร?</h4>
+                <button type="button">สถานที่ และเครื่องมือที่เหมาะสมสำหรับคนพิการ</button>
+            </section>
 
-                <section>
-                    <h4>ต้องการหางานสำหรับคนพิการ</h4>
-                    <button type="button">หางานกับกรมการจัดหางาน</button>
-                </section>
-        </div>
+            <section>
+                <h4>ต้องการหางานสำหรับคนพิการ</h4>
+                <button type="button">หางานกับกรมการจัดหางาน</button>
+            </section>
+            </div>
 
-        <div id="services-and-help" class="tabcontent">
-            <h1>Services and Help</h1>
-        </div>
-        <script>
-            function openTabcontent(evt, tabContent) {
-                var i, tabcontent, tablinks;
-                tabcontent = document.getElementsByClassName("tabcontent");
-                for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
+            <div id="services-and-help" class="tabcontent">
+                <h1>Services and Help</h1>
+            </div>
+
+
+            <script>
+                function openTabcontent(evt, tabContent) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(tabContent).style.display = "block";
+                    evt.currentTarget.className += " active";
                 }
-                tablinks = document.getElementsByClassName("tablinks");
-                for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" active", "");
-                }
-                document.getElementById(tabContent).style.display = "block";
-                evt.currentTarget.className += " active";
-            }
-        </script>
+            </script>
         </section>
     </main>
 
     <footer>
         <div class="menu-footer">
-        <section class="menu-flex">
-            <h4>ช่วยเหลือและบริการ</h4>
-            <ul>
-            <li>
-                <a href="/home">ลงทะเบียนบัตรประจำตัวคนพิการ</a>
-            </li>
-            <li>
-                <a href="/home">ขอล่ามภาษามือ</a>
-            </li>
-            <li>
-                <a href="/home">ขอผู้ช่วยคนพิการ</a>
-            </li>
-            <li>
-                <a href="/home">ต้องการเข้าสถานคุ้มครอง</a>
-            </li>
-            <li>
-                <a href="/home">ต้องการเงินช่วยเหลือ</a>
-            </li>
-            <li>
-                <a href="/home">ตรวจสอบสิทธิสวัสดิการสังคม</a>
-            </li>
-            <li>
-                <a href="/home">ตรวจสอบสิทธิรักษาพยาบาล สปสช.</a>
-            </li>
-            <li>
-                <a href="/home">ลดหย่อนภาษีคนพิการ</a>
-            </li>
-            </ul>
-        </section>
+            <section class="menu-flex">
+                <h4>ช่วยเหลือและบริการ</h4>
+                <ul>
+                    <li>
+                        <a href="/home">ลงทะเบียนบัตรประจำตัวคนพิการ</a>
+                    </li>
+                    <li>
+                        <a href="/home">ขอล่ามภาษามือ</a>
+                    </li>
+                    <li>
+                        <a href="/home">ขอผู้ช่วยคนพิการ</a>
+                    </li>
+                    <li>
+                        <a href="/home">ต้องการเข้าสถานคุ้มครอง</a>
+                    </li>
+                    <li>
+                        <a href="/home">ต้องการเงินช่วยเหลือ</a>
+                    </li>
+                    <li>
+                        <a href="/home">ตรวจสอบสิทธิสวัสดิการสังคม</a>
+                    </li>
+                    <li>
+                        <a href="/home">ตรวจสอบสิทธิรักษาพยาบาล สปสช.</a>
+                    </li>
+                    <li>
+                        <a href="/home">ลดหย่อนภาษีคนพิการ</a>
+                    </li>
+                </ul>
+            </section>
 
-        <section class="menu-flex">
-            <h4>คู่มือการปฏิบัติตัว</h4>
-            <ul>
-            <li>
-                <a href="/home">คู่มือออกแบบสภาพแวดล้อมสำหรับคนพิการ และคนทุกวัย</a>
-            </li>
-            <li>
-                <a href="/home">คู่มือรายการอุปกรณ์ สิ่งอำนวยความสะดวก หรือบริการที่สอดคล้องกับความต้องการพิเศษของคนพิการ</a>
-            </li>
-            <li>
-                <a href="/home">ตัวอย่างที่ดีในการจัดสิ่งอำนวยความสะดวกขั้นพื้นฐาน “สำหรับคนพิการและคนทุกวัย”</a>
-            </li>
-            </ul>
-        </section>
+            <section class="menu-flex">
+                <h4>คู่มือการปฏิบัติตัว</h4>
+                <ul>
+                    <li>
+                        <a href="/home">คู่มือออกแบบสภาพแวดล้อมสำหรับคนพิการ และคนทุกวัย</a>
+                    </li>
+                    <li>
+                        <a href="/home">คู่มือรายการอุปกรณ์ สิ่งอำนวยความสะดวก
+                            หรือบริการที่สอดคล้องกับความต้องการพิเศษของคนพิการ</a>
+                    </li>
+                    <li>
+                        <a href="/home">ตัวอย่างที่ดีในการจัดสิ่งอำนวยความสะดวกขั้นพื้นฐาน
+                            “สำหรับคนพิการและคนทุกวัย”</a>
+                    </li>
+                </ul>
+            </section>
 
-        <section class="menu-flex">
-            <h4>กฎหมาย/วิชาการ</h4>
-            <ul>
-                <li>
-                    <a href="/home">รัฐธรรมนูญ</a>
-                </li>
-                <li>
-                    <a href="/home">กฎหมาย</a>
-                </li>
-                <li>
-                    <a href="/home">ระเบียบ/ข้อบังคับ</a>
-                </li>
-                <li>
-                    <a href="/home">รายงานประจำปี</a>
-                </li>
-                <li>
-                    <a href="/home">บทความ/งานวิจัย</a>
-                </li>
-                <li>
-                    <a href="/home">เอกสารสำหรับดาวน์โหลด</a>
-                </li>
-        </ul>
-        </section>
+            <section class="menu-flex">
+                <h4>กฎหมาย/วิชาการ</h4>
+                <ul>
+                    <li>
+                        <a href="/home">รัฐธรรมนูญ</a>
+                    </li>
+                    <li>
+                        <a href="/home">กฎหมาย</a>
+                    </li>
+                    <li>
+                        <a href="/home">ระเบียบ/ข้อบังคับ</a>
+                    </li>
+                    <li>
+                        <a href="/home">รายงานประจำปี</a>
+                    </li>
+                    <li>
+                        <a href="/home">บทความ/งานวิจัย</a>
+                    </li>
+                    <li>
+                        <a href="/home">เอกสารสำหรับดาวน์โหลด</a>
+                    </li>
+                </ul>
+            </section>
 
-        <section class="menu-flex">
-            <h4>ติดต่อเรา</h4>
-            <ul>
-                <li>
-                    <a href="/home">ส่วนกลาง</a>
-                </li>
-                <li>
-                    <a href="/home">สถานคุ้มครองและพัฒนาคนพิการ</a>
-                </li>
-                <li>
-                    <a href="/home">ศูนย์พัฒนาศักยภาพและอาชีพ</a>
-                </li>
-                <li>
-                    <a href="/home">ต้งการเข้าสถานคุ้มครอง</a>
-                </li>
-                <li>
-                    <a href="/home">ศูนย์พัฒนาศักยภาพบุคคลออทิสติก</a>
-                </li>
-        </ul>
-        </section>
+            <section class="menu-flex">
+                <h4>ติดต่อเรา</h4>
+                <ul>
+                    <li>
+                        <a href="/home">ส่วนกลาง</a>
+                    </li>
+                    <li>
+                        <a href="/home">สถานคุ้มครองและพัฒนาคนพิการ</a>
+                    </li>
+                    <li>
+                        <a href="/home">ศูนย์พัฒนาศักยภาพและอาชีพ</a>
+                    </li>
+                    <li>
+                        <a href="/home">ต้งการเข้าสถานคุ้มครอง</a>
+                    </li>
+                    <li>
+                        <a href="/home">ศูนย์พัฒนาศักยภาพบุคคลออทิสติก</a>
+                    </li>
+                </ul>
+            </section>
 
-        <section class="menu-flex">
-            <h4>ข่าวสาร</h4>
-            <ul>
-                <li>
-                    <a href="/home">ข่าวสารประจำวัน</a>
-                </li>
-                <li>
-                    <a href="/home">ร่วมงานกับ พก.</a>
-                </li>
-                <li>
-                    <a href="/home">ประกาศจัดซื้อจัดจ้าง</a>
-                </li>
-                <li>
-                    <a href="/home">หลักสูตรออนไลน์ พก.</a>
-                </li>
-        </ul>
-        </section>
+            <section class="menu-flex">
+                <h4>ข่าวสาร</h4>
+                <ul>
+                    <li>
+                        <a href="/home">ข่าวสารประจำวัน</a>
+                    </li>
+                    <li>
+                        <a href="/home">ร่วมงานกับ พก.</a>
+                    </li>
+                    <li>
+                        <a href="/home">ประกาศจัดซื้อจัดจ้าง</a>
+                    </li>
+                    <li>
+                        <a href="/home">หลักสูตรออนไลน์ พก.</a>
+                    </li>
+                </ul>
+            </section>
 
-        <section class="menu-flex">
-            <h4>คำถามที่พบบ่อย</h4>
-            <ul>
-                <li>
-                    <a href="/home">คำถามที่พบบ่อย</a>
-                </li>
-                <li>
-                    <a href="/home">กระทู้ถาม-ตอบ</a>
-                </li>
-        </ul>
-        </section>
-    </div>
+            <section class="menu-flex">
+                <h4>คำถามที่พบบ่อย</h4>
+                <ul>
+                    <li>
+                        <a href="/home">คำถามที่พบบ่อย</a>
+                    </li>
+                    <li>
+                        <a href="/home">กระทู้ถาม-ตอบ</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
 
-    <div class="bottom-footer">
-        <section>
-            <hr>
-        <h3>กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ</h3>
-        <p>กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ <br>
-            เลขที่ 255 อาคาร 60 ปี กรมประชาสงเคราะห์ <br>
-            ถนนราชวิถี แขวงทุ่งพญาไท เขตราชเทวี <br>
-            กรุงเทพฯ 10400</p>
-        <p>โทรศัพท์ : 0 2354 3388</p>
-        <p>โทรสาร : 0 2354 5020</p>
-        <p>อีเมล : webmaster@dep.go.th</p>
-        </section>
-    </div>
+        <div class="bottom-footer">
+            <section>
+                <hr>
+                <h3>กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ</h3>
+                <p>กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ <br>
+                    เลขที่ 255 อาคาร 60 ปี กรมประชาสงเคราะห์ <br>
+                    ถนนราชวิถี แขวงทุ่งพญาไท เขตราชเทวี <br>
+                    กรุงเทพฯ 10400</p>
+                <p>โทรศัพท์ : 0 2354 3388</p>
+                <p>โทรสาร : 0 2354 5020</p>
+                <p>อีเมล : webmaster@dep.go.th</p>
+            </section>
+        </div>
     </footer>
 
 </body>

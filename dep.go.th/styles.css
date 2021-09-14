@@ -4,11 +4,24 @@
 
 div.tab {
     overflow: hidden;
-  background-color: #A5086B;
+    display: block;
+    border-bottom: 3px solid #F4F1DE;
+}
+
+button.tablinks {
+  background-color:white;
+  color: #0A090C;
+}
+
+button.tablinks:hover {
+  background-color: #F4F1DE;
+  color: #A5086B;
+  /* border: 3px solid #FF6978;
+  margin: -3px;   */
 }
 
 button {
-        background-color: #A5086B; /* Green */
+        background-color: #A5086B;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -24,21 +37,44 @@ button:hover {
 }
 
 h4#covid-banner {
-  color: white;
+  color:#0A090C;
+}
+
+h3 {
+  color: #A5086B;
+  font-weight: 700;
+}
+
+button.important-buttons {
+  font-weight: 700;
+  font-size: 24px;
+  /* margin: 12px; */
+}
+
+button.important-buttons:hover {
+  background-color: #F4F1DE;
+  color: #A5086B;
+  border: 3px solid #A5086B;
+  margin: -3px;
+}
+
+i {
+  font-size: 200%;
+  padding-right:inherit;
 }
 
 /* body */
 
 section.header {
     display: block;
-    background-color: #0A090C;
+    background-color: #F4E1E6;
 }
 
 div.grid-container {
-  display: flex;
+  display: block;
   margin: 20px auto;
     max-width: 100%;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 
 @media (max-width: 800px) {
@@ -55,27 +91,20 @@ div.grid-container {
 } */
 
 section.important-buttons {
-  display: flex;
-  flex-direction: column;
+  display: block;
   flex: 50%;
-  background-color: #F09A9D;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-button.important-buttons {
-  flex-grow: inherit;
-  margin: 12px;
-}
 
 section.news {
     padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #F4F1DE;
   flex: 50%;
 }
 
@@ -90,7 +119,7 @@ img {
 
 /* footer */
 footer {
-    background-color: #4E6E5D;
+    background-color: grey;
     display: block;
 }
 
@@ -121,7 +150,7 @@ a:link {
 
 a:hover {
   overflow: hidden;
-  border: 3px solid #E07A5F;
+  border: 3px solid #FF6978;
   /* background-color: #0A090C; */
   margin: -3px;
 }
