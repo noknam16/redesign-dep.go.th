@@ -66,8 +66,18 @@ i {
 /* body */
 
 section.header {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
     background-color: #F4E1E6;
+}
+
+div.COVID {
+  display: grid;
+  grid-template-columns: repeat(3,1.2fr);
+  grid-auto-rows: 45%;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 div.grid-container {
@@ -91,12 +101,16 @@ div.grid-container {
 } */
 
 section.important-buttons {
-  display: block;
-  flex: 50%;
+  display: grid;
+  grid-template-columns: repeat(3,1.2fr);
+  grid-auto-rows: 45%;
+  column-gap: 20px;
+  row-gap: 20px;
+  /* flex: 50%;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; */
 }
 
 
@@ -108,10 +122,13 @@ section.news {
   flex: 50%;
 }
 
-img {
-  width: 300px;
+section.checkStatus {
+  display: grid;
+  grid-template-columns: repeat(3,1.2fr);
+  grid-auto-rows: 45%;
+  column-gap: 20px;
+  row-gap: 20px;
 }
-
 
 
 /* end of body */
