@@ -4,4 +4,4 @@ This is my first time ever attempting at web development. I have zero background
 <p>P.S. The nauseating background colors you see is just my way of differentiating containers.</p>
 
 ### Still Want to Have a Look? Okay
-[Visit my WIP page here](dep.go.th/home.html) <span>But beware since it's still very "in-progress".</span>
+[Visit my WIP page here](dep.go.th/home.html) <span>but beware since it's still very "in-progress".</span>
